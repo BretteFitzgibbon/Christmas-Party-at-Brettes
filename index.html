@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Xmas </title>
+        <link href="reset.css" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel = "icon" href = "https://iheartcraftythings.com/wp-content/uploads/2021/08/6-43.jpg"/>
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="#input">Share Your Input</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><button type="button" class = "nav-button" id = "theme-button"> Site Theme </button></li>
+                <li><button type="button" class = "nav-button" id = "motion-button"> Reduce Motion </button></li>
+            </ul>
+        </div>
+
+        <div class = "header-container">
+            <div class = "header-item"> 
+                <img id="header-img" src="img/CodePath Header Holiday Bells.png"/>
+            </div>
+            <div class = "header-item"> 
+                <h1> Christmas Party at Brette's </h1>
+                <h2> Bring the Merry and Bright! </h2>
+                <button type="button" class="header-button"> Availability </button>
+                <button type="button" class="header-button"> Dietary Restrictions </button>
+                <button type="button" class="header-button"> Playlist </button>
+                <button type="button" class="header-button"> Secret Santa </button>
+                <button type="button" class="header-button"> Christmas Critters </button>
+                <button type="button" class="header-button"> Movie </button>
+                <button type="button" class="header-button"> Wishlist </button>
+            </div>
+        </div>
+
+        <h2> A time to come together </h2>
+        <p class = "text"> Whatever you believe, the holiday season is a time for family and
+            friends to celebrate their bonds and the love they share. Plus, do
+            we really need an excuse to throw a party? From scheduling to songs to
+            Secret Santa, please fill out the website fields so we can collaborate
+            on the best party for everyone!
+        </p>
+
+        <h2 id = "input"> How to Merry </h2>
+        <h4> We want your input to make this party the best it can be! </h4>
+        <p> <span> Time for Christmas: </span> Let me know your December availability. This 
+                party will not be on Christmas day and will not conflict with your 
+                family festivities.
+        </p>
+        <p> <span> Caroling, Caroling: </span> Build the party playlist with your favorite 
+                Christmas songs.
+        </p> 
+        <p> <span> Christmas Tales: </span> Share a Christmas movie you would love to watch. </p> 
+        <p> <span> Christmas Wish: </span> Tell us what gift you would like most (under $100). </p> 
+        
+        <div class = "schedule-container">    
+            <h2 id = "schedule"> A Spirited Schedule </h2>
+
+            <img class = "image" alt="A Christmas wreath" src="img/53071541199_cf2bc7c1c3_o_2000x.jpg?v=1727735876" 
+                height = 300 width = 300/>
+            <h3> Festive Appetizers </h3> 
+            <p> Start off with some Xmas-themed goodies. </p> 
+            <img class = "image" alt = "Appetizers that look like a snowman" src="img/skillet-dip-snowman-christmas-appetizer-recipes.jpg" 
+                height = 300 width = 300/>
+            <h3> Christmas Sweater Photo Shoot </h3> 
+            <p> Wear your best Christmas sweater to feature in our gallery. </p> 
+            <img class = "image" alt="little girl wearing a Christmas sweater with a large gold bow in the center" src="img/kids-present-with-bow-ugly-christmas-sweater-001copy_1.webp" 
+                height = 300 width = 257/>
+            <h3> Christmas Carol Competition </h3> 
+            <p> Pick a Christmas carol and sing as much of it as you can by heart 
+                    (pre-party practicing strongly encouraged, good 
+                    singing voice not required). </p> 
+            <img class = "image" alt="Embroidery of two birds singing from Christmas carol books" src="img/E6412.jpg" 
+            height = 300 width = 319/>
+            <h3> Christmas Dinner </h3> 
+            <p> Feast on delicious offerings that work with all your dietary 
+                    restrictions. </p> 
+            <img class = "image" alt="A family seated around a table for Christmas dinner" src="img/Sixty-and-Me_6-Easy-Christmas-Dinner-Ideas.jpg" 
+                height = 300 width = 533/>
+            <h3> Christmas Critters </h3> 
+            <p> Although pets are not allowed at the party (my cats get nervous!), I will make a slideshow of your pre-party photo 
+                    submissions. </p> 
+            <img class = "image" alt="Two cats wearing Christmas bows" src="img/Cherubic Cats.png" 
+                height = 300 width = 473/>
+            <h3> Dessert </h3> 
+            <p> Enjoy scrumptious and inclusive desserts. </p> 
+            <img class = "image" alt="Reindeer brownies" src="img/easy-christmas-desserts-reindeer-brownies-653c2bab587d1.avif" 
+                height = 300 width = 375/>
+            <h3> Gift Exchange </h3> 
+            <p> Open your present and thank your Secret Santa! </p> 
+            <img class = "image" alt="Christmas gifts" src="img/81z0oEb7ePL.jpg" height = 300 width = 300/>
+            <h3> Movie Time </h3> 
+            <p> End the evening with a Christmas narrative. </p> 
+            <img class = "image" alt="Rudolph the Red-Nosed Reindeer" src="img/rudolph-the-red-nosed-reindeer-1964.avif" 
+                height = 300 width = 600 />
+        </div>
+        
+        
+        <div id="rsvp">
+            <h2>RSVP</h2>
+            <p id = "rsvp-count"> 4 people will be there! </p>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <p> The greatest present is your presence. Let me know below if you're down to make merry!</p>
+                </div>
+                <div class="rsvp-participants">
+                    <p>🎟️ Charlotte has RSVP'd.</p>
+                    <p>🎟️ Padmaja has RSVP'd.</p>
+                    <p>🎟️ Xiaoying has RSVP'd.</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form id="rsvp-form" title="rsvp-form">
+                <label for = "name"> Name: </label>
+                <input type = "text" id = "name" class = "input"> <br>
+                <label for = "email"> Email: </label>
+                <input type = "text" id = "email" class = "input"> <br>
+                <label for = "kids"> No. of Kids: </label>
+                <input type = "text" id = "kids" class = "input">
+            </form>
+            <button id="rsvp-button">Submit RSVP</button>
+        </div>      
+
+        <div id="thanks-modal" class="modal">
+            <div class="modal-container">
+                <div class="modal-header">
+                    <button type="button" id="modal-button">Close</button>
+                </div>
+                <span id="thanks-content-modal"> </span>
+                <div>
+                    <img src = "img/Crystal Snowflakes.avif" id="modal-item">
+                </div>
+            </div>
+        </div>
+
+        <h2>Links</h2>
+        <a href="https://open.spotify.com/playlist/6MlJ32S1BlSFDPKoIK2VWU">
+            <article>
+                <p>Check out my 343-song playlist for some caroling inspiration</p>
+            </article>
+        </a>
+        <a href="https://editorial.rottentomatoes.com/guide/best-christmas-movies">
+            <article>
+                <p>Find your classic with Rotten Tomatoes' guide to Christmas movies</p>
+            </article>
+        </a>
+
+        <div class = "footer">
+            <iframe src = "https://www.youtube.com/embed/iaQBQp5tgcw"> </iframe>
+        </div>
+        <script src = "index.js"></script>
+
+    </body>
+</html>
